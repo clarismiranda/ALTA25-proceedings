@@ -1,0 +1,642 @@
+- abstract: In this paper, we combine the discourse coherence principles of Elementary
+    Discourse Unit segmentation and Rhetorical Structure Theory parsing to construct
+    meaningful graph-based text representations. We then evaluate a Graph Convolutional
+    Network and a Graph Attention Network on these representations. Our results establish
+    a new benchmark in F1-score assessment for discourse coherence modelling while
+    also showing that Graph Convolutional Network models are generally more computationally
+    efficient and provide superior accuracy.
+  attributes:
+    paper_type: long
+    presentation_type: oral
+    submitted_area: Research
+  authors:
+  - first_name: Michael
+    last_name: Lambropoulos
+  - first_name: Shunichi
+    last_name: Ishihara
+  end_page: 11
+  file: 3.pdf
+  id: 3
+  num_pages: 11
+  start_page: 1
+  title: Towards an Implementation of Rhetorical Structure Theory in Discourse Coherence
+    Modelling
+- abstract: Data visualisation is a valuable task that combines careful data processing
+    with creative design. Large Language Models (LLMs) are now capable of responding
+    to a data visualisation request in natural language with code that generates accurate
+    data visualisations (e.g., using Matplotlib), but what about human-centered factors,
+    such as the creativity and accessibility of the data visualisations? In this work,
+    we study human perceptions of creativity in the data visualisations generated
+    by LLMs, and propose metrics for accessibility. We generate a range of visualisations
+    using GPT-4 and Claude-2 with controlled variations in prompt and inference parameters,
+    to encourage the generation of different types of data visualisations for the
+    same data. Subsets of these data visualisations are presented to people in a survey
+    with questions that probe human perceptions of different aspects of creativity
+    and accessibility. We find that the models produce visualisations that are novel,
+    but not surprising. Our results also show that our accessibility metrics are consistent
+    with human judgements. In all respects, the LLMs underperform visualisations produced
+    by human-written code. To go beyond the simplest requests, these models need to
+    become aware of human-centered factors, while maintaining accuracy.
+  attributes:
+    paper_type: long
+    presentation_type: oral
+    submitted_area: Research
+  authors:
+  - first_name: Clarissa
+    last_name: Miranda-Pena
+  - first_name: Andrew
+    last_name: Reeson
+  - first_name: "C\xE9cile"
+    last_name: Paris
+  - first_name: Josiah
+    last_name: Poon
+  - first_name: Jonathan
+    last_name: Kummerfeld
+    middle_name: K.
+  end_page: 29
+  file: 13.pdf
+  id: 13
+  num_pages: 18
+  start_page: 12
+  title: Do LLMs Generate Creative and Visually Accessible Data visualisations?
+- abstract: Currently, document-level sentiment classification focuses on extracting
+    text features directly using a deep neural network and representing the document
+    through a high-dimensional vector. Such sentiment classifiers that directly accept
+    text as input may not be able to capture more fine-grained sentiment representations
+    based on different aspects in a review, which could be informative for document-level
+    sentiment classification. We propose a method to construct a GenABSA feature vector
+    containing five aspect-sentiment scores to represent each review document. We
+    first generate an aspect-based sentiment analysis (ABSA) quadruple by finetuning
+    the T5 pre-trained language model. The aspect term from each quadruple is then
+    scored for sentiment using our sentiment lexicon fusion approach, SentLex-Fusion.
+    For each document, we then aggregate the sentiment score belonging to the same
+    aspect to derive the aspect-sentiment feature vector, which is subsequently used
+    as input to train a document-level sentiment classifier. Based on a Yelp restaurant
+    review corpus labeled with sentiment polarity containing 2040 documents, the sentiment
+    classifier trained with ABSA features aggregated using geometric mean achieved
+    the best performance compared to the baselines.
+  attributes:
+    paper_type: long
+    presentation_type: oral
+    submitted_area: Research
+  authors:
+  - first_name: Liu
+    last_name: Minkang
+  - first_name: Jasy Liew
+    last_name: Suet Yan
+  end_page: 40
+  file: 15.pdf
+  id: 15
+  num_pages: 11
+  start_page: 30
+  title: 'GenABSA-Vec: Generative Aspect-Based Sentiment Feature Vectorization for
+    Document-Level Sentiment Classification'
+- abstract: 'The emergence of Large Language Models (LLMs) has demonstrated promising
+    progress in solving logical reasoning tasks effectively. Several recent approaches
+    have proposed to change the role of the LLM from the reasoner into a translator
+    between natural language statements and symbolic representations which are then
+    sent to external symbolic solvers to resolve. This paradigm has established the
+    current state-of-the-art result in logical reasoning (i.e., deductive reasoning).
+    However, it remains unclear whether the variance in performance of these approaches
+    stems from the methodologies employed or the specific symbolic solvers utilized.
+    There is a lack of consistent comparison between symbolic solvers and how they
+    influence the overall reported performance. This is important, as each symbolic
+    solver also has its own input symbolic language, presenting varying degrees of
+    challenge in the translation process. To address this gap, we perform experiments
+    on 3 deductive reasoning benchmarks with LLMs augmented with widely used symbolic
+    solvers: Z3, Pyke, and Prover9. The tool-executable rates of symbolic translation
+    generated by different LLMs exhibit a near 50% performance variation. This highlights
+    a significant difference in performance rooted in very basic choices of tools.
+    The almost linear correlation between the executable rate of translations and
+    the accuracy of the outcomes from Prover9 highlight a strong alignment between
+    LLMs ability to translate into Prover9 symbolic language, and the correctness
+    of those translations.'
+  attributes:
+    paper_type: long
+    presentation_type: oral
+    submitted_area: Research
+  authors:
+  - first_name: Long Hei
+    last_name: Matthew Lam
+  - first_name: Ramya
+    last_name: Thatikonda
+    middle_name: Keerthy
+  - first_name: Ehsan
+    last_name: Shareghi
+  end_page: 63
+  file: 16.pdf
+  id: 16
+  num_pages: 23
+  start_page: 41
+  title: 'A Closer Look at Tool-based Logical Reasoning with LLMs: The Choice of Tool
+    Matters'
+- abstract: "We present a study of LLMs\u2019 performance in generating and rating\
+    \ example sentences for bilingual dictionaries across languages with varying resource\
+    \ levels: French (high-resource), Indonesian (mid-resource), and Tetun (low-resource),\
+    \ with English as the target language. We evaluate the quality of LLMgenerated\
+    \ examples against the GDEX (Good Dictionary EXample) criteria: typicality, informativeness,\
+    \ and intelligibility (Kilgarriff et al., 2008). Our findings reveal that while\
+    \ LLMs can generate reasonably good dictionary examples, their performance degrades\
+    \ significantly for lower-resourced languages. We also observe high variability\
+    \ in human preferences for example quality, reflected in low interannotator agreement\
+    \ rates. To address this, we demonstrate that in-context learning can successfully\
+    \ align LLMs with individual annotator preferences. Additionally, we explore the\
+    \ use of pre-trained language models for automated rating of examples, finding\
+    \ that sentence perplexity serves as a good proxy for ``typicality'' and ``intelligibility''\
+    \ in higher-resourced languages. Our study also contributes a novel dataset of\
+    \ 600 ratings for LLM-generated sentence pairs, and provides insights into the\
+    \ potential of LLMs in reducing the cost of lexicographic work, particularly for\
+    \ low-resource languages."
+  attributes:
+    paper_type: long
+    presentation_type: oral
+    submitted_area: Research
+  authors:
+  - first_name: Raphael
+    last_name: Merx
+  - first_name: Ekaterina
+    last_name: Vylomova
+  - first_name: Kemal
+    last_name: Kurniawan
+  end_page: 74
+  file: 27.pdf
+  id: 27
+  num_pages: 11
+  start_page: 64
+  title: Generating bilingual example sentences with large language models as lexicography
+    assistants
+- abstract: We propose a novel approach to enhancing the performance and efficiency
+    of large language models (LLMs) by combining domain prompt routing with domain-specialized
+    models. We introduce a system that utilizes a BERT-based router to direct incoming
+    prompts to the most appropriate domain expert model. These expert models are specifically
+    tuned for domains such as health, mathematics and science. Our research demonstrates
+    that this approach can significantly outperform general-purpose models of comparable
+    size, leading to a superior performance-to-cost ratio across various benchmarks.
+    The implications of this study suggest a potential shift in LLM development and
+    deployment. Rather than focusing solely on creating increasingly large, general-purpose
+    models, the future of AI may lie in developing ecosystems of smaller, highly specialized
+    models coupled with sophisticated routing systems. This approach could lead to
+    more efficient resource utilization, reduced computational costs, and superior
+    overall performance.
+  attributes:
+    paper_type: long
+    presentation_type: oral
+    submitted_area: Research
+  authors:
+  - first_name: Toby
+    last_name: Simonds
+  - first_name: Kemal
+    last_name: Kurniawan
+  - first_name: Jey Han
+    last_name: Lau
+  end_page: 88
+  file: 31.pdf
+  id: 31
+  num_pages: 14
+  start_page: 75
+  title: 'MoDEM: Mixture of Domain Expert Models'
+- abstract: Real-world simultaneous machine translation (SimulMT) systems face more
+    challenges than just the quality-latency trade-off. They also need to address
+    issues related to robustness with noisy input, processing long contexts, and flexibility
+    for knowledge injection. These challenges demand models with strong language understanding
+    and generation capabilities which may not often equipped by dedicated MT models.
+    In this paper, we investigate the possibility of applying Large Language Models
+    (LLM) to SimulMT tasks by using existing incremental-decoding methods with a newly
+    proposed RALCP algorithm for latency reduction. We conducted experiments using
+    the Llama2-7b-chat model on nine different languages from the MUST-C dataset.
+    The results show that LLM outperforms dedicated MT models in terms of BLEU and
+    LAAL metrics. Further analysis indicates that LLM has advantages in terms of tuning
+    efficiency and robustness. However, it is important to note that the computational
+    cost of LLM remains a significant obstacle to its application in SimulMT.
+  attributes:
+    paper_type: long
+    presentation_type: oral
+    submitted_area: Research
+  authors:
+  - first_name: Minghan
+    last_name: Wang
+  - first_name: Thuy-Trang
+    last_name: Vu
+  - first_name: Jinming
+    last_name: Zhao
+  - first_name: Fatemeh
+    last_name: Shiri
+  - first_name: Ehsan
+    last_name: Shareghi
+  - first_name: Gholamreza
+    last_name: Haffari
+  end_page: 103
+  file: 33.pdf
+  id: 33
+  num_pages: 15
+  start_page: 89
+  title: Simultaneous Machine Translation with Large Language Models
+- abstract: "Language models are trained on vast datasets sourced from the internet,\
+    \ which inevitably contain biases that reflect societal norms, stereotypes, and\
+    \ political inclinations. These biases can manifest in model outputs, influencing\
+    \ a wide range of applications. While there has been extensive research on bias\
+    \ detection and mitigation in large language models (LLMs) for widely spoken languages\
+    \ like English, there is a significant gap when it comes to low-resource languages\
+    \ such as Nepali. This paper addresses this gap by investigating the political\
+    \ and economic biases present in five fill-mask models and eleven generative models\
+    \ trained for the Nepali language. To assess these biases, we translated the Political\
+    \ Compass Test (PCT) into Nepali and evaluated the models\u2019 outputs along\
+    \ social and economic axes. Our findings reveal distinct biases across models,\
+    \ with small LMs showing a right-leaning economic bias, while larger models exhibit\
+    \ more complex political orientations, including left-libertarian tendencies.\
+    \ This study emphasizes the importance of addressing biases in low-resource languages\
+    \ to promote fairness and inclusivity in AI-driven technologies. Our work provides\
+    \ a foundation for future research on bias detection and mitigation in underrepresented\
+    \ languages like Nepali, contributing to the broader goal of creating more ethical\
+    \ AI systems."
+  attributes:
+    paper_type: long
+    presentation_type: oral
+    submitted_area: Research
+  authors:
+  - first_name: Surendrabikram
+    last_name: Thapa
+  - first_name: Kritesh
+    last_name: Rauniyar
+  - first_name: Ehsan
+    last_name: Barkhordar
+  - first_name: Hariram
+    last_name: Veeramani
+  - first_name: Usman
+    last_name: Naseem
+  end_page: 117
+  file: 36.pdf
+  id: 36
+  num_pages: 14
+  start_page: 104
+  title: Which Side Are You On? Investigating Politico-Economic Bias in Nepali Language
+    Models
+- abstract: This paper addresses the challenge of efficiently managing and accessing
+    community service information, specifically focusing on venue hire details within
+    the SAcommunity directory. By leveraging Large Language Models (LLMs), particularly
+    the RoBERTa transformer model, we developed an automated system to extract and
+    structure venue availability information according to MARC (Machine-Readable Cataloging)
+    standards. Our approach involved fine-tuning the RoBERTa model on a dataset of
+    community service descriptions, enabling it to identify and categorize key elements
+    such as facility names, capacities, equipment availability, and accessibility
+    features. The model was then applied to process unstructured text data from the
+    SAcommunity database, automatically extracting relevant information and organizing
+    it into standardized fields. The results demonstrate the effectiveness of this
+    method in transforming free-text summaries into structured, MARC-compliant data.
+    This automation not only significantly reduces the time and effort required for
+    data entry and categorization but also enhances the accessibility and usability
+    of community information.
+  attributes:
+    paper_type: long
+    presentation_type: oral
+    submitted_area: Research
+  authors:
+  - first_name: Mostafa
+    last_name: Mahdi
+    middle_name: Didar
+  - first_name: Thushari
+    last_name: Atapattu
+  - first_name: Menasha
+    last_name: Thilakaratne
+  end_page: 129
+  file: 37.pdf
+  id: 37
+  num_pages: 12
+  start_page: 118
+  title: 'Advancing Community Directories: Leveraging LLMs for Automated Extraction
+    in MARC Standard Venue Availability Notes'
+- abstract: Organisation of information about genes, genetic variants, and associated
+    diseases from vast quantities of scientific literature texts through automated
+    information extraction (IE) strategies can facilitate progress in personalised
+    medicine. We systematically evaluate the performance of generative large language
+    models (LLMs) on the extraction of specialised genetic information, focusing on
+    end-to-end IE encompassing both named entity recognition and relation extraction.
+    We experiment across multilingual datasets with a range of instruction strategies,
+    including zero-shot and few-shot prompting along with providing an annotation
+    guideline. Optimal results are obtained with few-shot prompting. However, we also
+    identify that generative LLMs failed to adhere to the instructions provided, leading
+    to over-generation of entities and relations. We therefore carefully examine the
+    effect of learning paradigms on the extent to which genetic entities are fabricated,
+    and the limitations of exact matching to determine performance of the model.
+  attributes:
+    paper_type: long
+    presentation_type: oral
+    submitted_area: Research
+  authors:
+  - first_name: Milindi
+    last_name: Kodikara
+  - first_name: Karin
+    last_name: Verspoor
+  end_page: 145
+  file: 40.pdf
+  id: 40
+  num_pages: 16
+  start_page: 130
+  title: 'Lesser the Shots, Higher the Hallucinations: Exploration of Genetic Information
+    Extraction using Generative Large Language Models'
+- abstract: 'This paper explores the challenges of detecting LGBTQIA+ hate speech
+    of large language models across multiple languages, including English, Italian,
+    Chinese and (code-mixed) English-Tamil, examining the impact of machine translation
+    and whether the nuances of hate speech are preserved across translation. We examine
+    the hate speech detection ability of zero-shot and fine-tuned GPT. Our findings
+    indicate that: (1) English has the highest performance and the code-mixing scenario
+    of English-Tamil being the lowest, (2) fine-tuning improves performance consistently
+    across languages whilst translation yields mixed results. Through simple experimentation
+    with original text and machine-translated text for hate speech detection along
+    with a qualitative error analysis, this paper sheds light on the socio-cultural
+    nuances and complexities of languages that may not be captured by automatic translation.'
+  attributes:
+    paper_type: short
+    presentation_type: oral
+    submitted_area: Research
+  authors:
+  - first_name: Fai Leui
+    last_name: Chan
+  - first_name: Duke
+    last_name: Nguyen
+  - first_name: Aditya
+    last_name: Joshi
+  end_page: 152
+  file: 1.pdf
+  id: 1
+  num_pages: 7
+  start_page: 146
+  title: '``Is Hate Lost in Translation?'''': Evaluation of Multilingual LGBTQIA+
+    Hate Speech Detection'
+- abstract: "Personality profiling has been utilised by companies for targeted advertising,\
+    \ political campaigns and public health campaigns. However, the accuracy and versatility\
+    \ of such models remains relatively unknown. Here we explore the extent to which\
+    \ peoples\u2019 online digital footprints can be used to profile their Myers-\
+    \ Briggs personality type. We analyse and compare four models: logistic regression,\
+    \ naive Bayes, support vector machines (SVMs) and random forests. We discover\
+    \ that a SVM model achieves the best accuracy of 20.95% for predicting a complete\
+    \ personality type. However, logistic regression models perform only marginally\
+    \ worse and are significantly faster to train and perform predictions. Moreover,\
+    \ we develop a statistical framework for assessing the importance of different\
+    \ sets of features in our models. We discover some features to be more informative\
+    \ than others in the Intuitive/Sensory (p = 0.032) and Thinking/Feeling (p = 0.019)\
+    \ models. Many labelled datasets present substantial class imbalances of personal\
+    \ characteristics on social media, including our own. We therefore highlight the\
+    \ need for attentive consideration when reporting model performance on such datasets\
+    \ and compare a number of methods to fix class-imbalance problems."
+  attributes:
+    paper_type: short
+    presentation_type: oral
+    submitted_area: Research
+  authors:
+  - first_name: Joshua
+    last_name: Watt
+  - first_name: Lewis
+    last_name: Mitchell
+  - first_name: Jonathan
+    last_name: Tuke
+  end_page: 163
+  file: 5.pdf
+  id: 5
+  num_pages: 11
+  start_page: 153
+  title: 'Personality Profiling: How informative are social media profiles in predicting
+    personal information?'
+- abstract: Clinical language models are important for many applications in healthcare,
+    but their development depends on access to extensive clinical text for pretraining.
+    However, obtaining clinical notes from electronic health records (EHRs) at scale
+    is challenging due to patient privacy concerns. In this study, we rephrase existing
+    clinical notes using LLMs to generate synthetic pretraining corpora, drawing inspiration
+    from previous work on rephrasing web data. We examine four popular small-sized
+    LLMs (<10B) to create synthetic clinical text to pretrain both decoder-based and
+    encoder-based language models. The method yields better results in language modeling
+    and downstream tasks than previous synthesis approaches without referencing real
+    clinical text. We find that augmenting original clinical notes with synthetic
+    corpora from different LLMs improves performances even at a small token budget,
+    showing the potential of this method to support pretraining at the institutional
+    level or be scaled to synthesize large-scale clinical corpora.
+  attributes:
+    paper_type: short
+    presentation_type: oral
+    submitted_area: Research
+  authors:
+  - first_name: Jinghui
+    last_name: Liu
+  - first_name: Anthony
+    last_name: Nguyen
+  end_page: 172
+  file: 19.pdf
+  id: 19
+  num_pages: 9
+  start_page: 164
+  title: Rephrasing Electronic Health Records for Pretraining Clinical Language Models
+- abstract: Satirical news is real news combined with a humorous comment or exaggerated
+    content, and it often mimics the format and style of real news. However, satirical
+    news is often misunderstood as misinformation, especially by individuals from
+    different cultural and social backgrounds. This research addresses the challenge
+    of distinguishing satire from truthful news by leveraging multilingual satire
+    detection methods in English and Arabic. We explore both zero-shot and chain-of-thought
+    (CoT) prompting using two language models, Jais-chat(13B) and LLaMA-2-chat(7B).
+    Our results show that CoT prompting offers a significant advantage for the Jais-chat
+    model over the LLaMA-2-chat model. Specifically, Jais-chat achieved the best performance,
+    with an F1-score of 80% in English when using CoT prompting. These results high-
+    light the importance of structured reasoning in CoT, which enhances contextual
+    understanding and is vital for complex tasks like satire detection.
+  attributes:
+    paper_type: short
+    presentation_type: oral
+    submitted_area: Research
+  authors:
+  - first_name: Omar
+    last_name: Abdalla
+    middle_name: W.
+  - first_name: Aditya
+    last_name: Joshi
+  - first_name: Rahat
+    last_name: Masood
+  - first_name: Salil
+    last_name: Kanhere
+    middle_name: S.
+  end_page: 178
+  file: 21.pdf
+  id: 21
+  num_pages: 6
+  start_page: 173
+  title: Comparison of Multilingual and Bilingual Models for Satirical News Detection
+    of Arabic and English
+- abstract: "Lung cancer remains a leading cause of cancer-related deaths, but public\
+    \ support for individuals living with lung cancer is often constrained by stigma\
+    \ and misconceptions, leading to serious emotional and social consequences for\
+    \ those diagnosed. Understanding how this stigma manifests and affects individuals\
+    \ is vital for developing inclusive interventions. Online discussion forums offer\
+    \ a unique opportunity to examine how lung cancer stigma is expressed and experienced.\
+    \ This study combines qualitative analysis and unsupervised learning (topic modelling)\
+    \ to explore stigma-related content within an online lung cancer forum. Our findings\
+    \ highlight the role of online forums as a key space for addressing anti-discriminatory\
+    \ attitudes and sharing experiences of lung cancer stigma. We found that users\
+    \ both with and with- out lung cancer engage in discussions pertaining to supportive\
+    \ and welcoming topics, high- lighting the online forum\u2019s role in facilitating\
+    \ social and informational support."
+  attributes:
+    paper_type: short
+    presentation_type: oral
+    submitted_area: Research
+  authors:
+  - first_name: Jiahe
+    last_name: Liu
+  - first_name: Mike
+    last_name: Conway
+  - first_name: Daniel
+    last_name: Lozoya
+    middle_name: Cabrera
+  end_page: 188
+  file: 22.pdf
+  id: 22
+  num_pages: 10
+  start_page: 179
+  title: 'Breaking the Silence: How Online Forums Address Lung Cancer Stigma and Offer
+    Support'
+- abstract: "Identifying self-disclosed health diagnoses in social media data using\
+    \ regular expressions (e.g. ``I\u2019ve been diagnosed with <Disease X>'') is\
+    \ a well-established approach for creating ad hoc cohorts of individuals with\
+    \ specific health conditions. However there is evidence to suggest that this method\
+    \ of identifying individuals is unreliable when creating cohorts for some mental\
+    \ health and neurodegenerative conditions. In the case of dementia, the focus\
+    \ of this paper, diagnostic disclosures are frequently whimsical or sardonic,\
+    \ rather than indicative of an authentic diagnosis or underlying disease state\
+    \ (e.g. ``I forgot my keys again. I\u2019ve got dementia!''). With this work and\
+    \ utilising an annotated corpus of 14,025 dementia diagnostic self-disclosure\
+    \ posts derived from Twitter, we leveraged LLMs to distinguish between ``authentic''\
+    \ dementia self-disclosures and ``inauthentic'' self-disclosures. Specifically,\
+    \ we implemented a genetic algorithm that evolves prompts using various state-of-the-art\
+    \ prompt engineering techniques, including chain of thought, self-critique, generated\
+    \ knowledge, and expert prompting. Our results showed that, of the methods tested,\
+    \ the evolved self-critique prompt engineering method achieved the best result,\
+    \ with an F1-score of 0.8."
+  attributes:
+    paper_type: short
+    presentation_type: oral
+    submitted_area: Research
+  authors:
+  - first_name: Daniel
+    last_name: Lozoya
+    middle_name: Cabrera
+  - first_name: Jude
+    last_name: Mikal
+    middle_name: P
+  - first_name: Yun
+    last_name: Wong
+    middle_name: Leng
+  - first_name: Laura
+    last_name: Hemmy
+    middle_name: S
+  - first_name: Mike
+    last_name: Conway
+  end_page: 196
+  file: 26.pdf
+  id: 26
+  num_pages: 8
+  start_page: 189
+  title: 'Truth in the Noise: Unveiling Authentic Dementia Self-Disclosure Statements
+    in Social Media with LLMs'
+- abstract: The ALTA shared tasks have been running annually since 2010. In 2024,
+    the purpose of the task is to detect machine-generated text in a hybrid setting
+    where the text may contain portions of human text and portions machine-generated.
+    In this paper, we present the task, the evaluation criteria, and the results of
+    the systems participating in the shared task.
+  attributes:
+    paper_type: task
+    presentation_type: oral
+    submitted_area: Shared Task
+  authors:
+  - first_name: Diego
+    last_name: "Moll\xE1"
+  - first_name: Qiongkai
+    last_name: Xu
+  - first_name: Zijie
+    last_name: Zeng
+  - first_name: Zhuang
+    last_name: Li
+  end_page: 202
+  file: st_1.pdf
+  id: st_1
+  num_pages: 6
+  start_page: 197
+  title: 'Overview of the 2024 ALTA Shared Task: Detect Automatic AI-Generated Sentences
+    for Human-AI Hybrid Articles'
+- abstract: The recent proliferation of AI-generated content has prompted significant
+    interest in developing reliable detection methods. This study explores techniques
+    for identifying AIgenerated text through sentence-level evaluation within hybrid
+    articles. Our findings indicate that ChatGPT-3.5 Turbo exhibits distinct, repetitive
+    probability patterns that enable consistent in-domain detection. Empirical tests
+    show that minor textual modifications, such as rewording, have minimal impact
+    on detection accuracy. These results provide valuable insights for advancing AI
+    detection methodologies, offering a pathway toward robust solutions to address
+    the complexities of synthetic text identification.
+  attributes:
+    paper_type: task
+    presentation_type: oral
+    submitted_area: Shared Task
+  authors:
+  - first_name: Dima
+    last_name: Galat
+  end_page: 206
+  file: st_2.pdf
+  id: st_2
+  num_pages: 4
+  start_page: 203
+  title: 'Advancing LLM detection in the ALTA 2024 Shared Task: Techniques and Analysis'
+- abstract: "The ALTA 2024 shared task concerned automated detection of AI-generated\
+    \ text. Large language models (LLM) were used to generate hybrid documents, where\
+    \ individual sentences were authored by either humans or a state-of-the-art LLM.\
+    \ Rather than rely on similarly computationally expensive tools like transformer-based\
+    \ methods, we decided to approach this task using only an ensemble of lightweight\
+    \ \u201Ctraditional\u201D methods that could be trained on a standard desktop\
+    \ machine. Our approach used models based on word counts, stylometric features,\
+    \ readability metrics, part-of-speech tagging, and an information-theoretic entropy\
+    \ estimator to predict authorship. These models, combined with a simple weighting\
+    \ scheme, performed well on a held-out test set, achieving an accuracy of 0.855\
+    \ and a kappa score of 0.695. Our results show that relatively simple, interpretable\
+    \ models can perform effectively at tasks like authorship prediction, even on\
+    \ short texts, which is important for democratisation of AI as well as future\
+    \ applications in edge computing."
+  attributes:
+    paper_type: task
+    presentation_type: oral
+    submitted_area: Shared Task
+  authors:
+  - first_name: Joel
+    last_name: Thomas
+  - first_name: Gia
+    last_name: Hoang
+    middle_name: Bao
+  - first_name: Lewis
+    last_name: Mitchell
+  end_page: 212
+  file: st_3.pdf
+  id: st_3
+  num_pages: 6
+  start_page: 207
+  title: 'Simple models are all you need: Ensembling stylometric, part-of-speech,
+    and information-theoretic models for the ALTA 2024 Shared Task'
+- abstract: This tutorial, presented at ALTA 2024, focuses on efficient fine-tuning
+    and quantisation techniques for large language models (LLMs), addressing challenges
+    in deploying state-of-the-art models on resource-constrained hardware. It introduces
+    parameter-efficient fine-tuning (PEFT) methods, such as Low-Rank Adaptation (LoRA),
+    and model quantisation strategies, which enable training and inference of LLMs
+    on GPUs with limited memory (e.g., 16 GB VRAM). Participants will work with TinyLlama
+    (1.1B) and the public domain text War and Peace as an accessible dataset, ensuring
+    there are no barriers like credentialled access to Hugging Face or PhysioNet datasets.
+    The tutorial also demonstrates common training challenges, such as OutOfMemoryError,
+    and shows how PEFT can mitigate these issues, enabling large-scale fine-tuning
+    even in resource-limited environments.
+  attributes:
+    paper_type: tutorial
+    presentation_type: oral
+    submitted_area: Tutorial
+  authors:
+  - first_name: Nicholas
+    last_name: Kuo
+    middle_name: I-Hsien
+  end_page: 213
+  file: t1.pdf
+  id: t1
+  num_pages: 1
+  start_page: 213
+  title: 'Hands-On NLP with Hugging Face: ALTA 2024 Tutorial on Efficient Fine-Tuning
+    and Quantisation'

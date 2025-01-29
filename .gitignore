@@ -1,0 +1,12 @@
+/build
+*/__pycache__/
+*.log
+*.aux
+*.pax
+*.DS_Store
+.idea/aclpub2.iml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/modules.xml
+.vscode
+venv
