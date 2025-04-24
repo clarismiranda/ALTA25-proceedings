@@ -1,5 +1,5 @@
-This is the repository for Proceedings of The 22nd Annual Workshop of the 
-Australasian Language Technology Association (ALTA 2024).
+This is the repository for Proceedings of The 23rd Annual Workshop of the 
+Australasian Language Technology Association (ALTA 2025).
 
 Proceedings were compiled using `aclpub2` v 1.1 
 (https://github.com/rycolab/aclpub2). Compilation was done on a Windows 10
