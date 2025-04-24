@@ -1,7 +1,7 @@
-# ALTA 2024 proceedings
+# ALTA 2025 proceedings
 
-This is the repository for Proceedings of The 22nd Annual Workshop of the 
-Australasian Language Technology Association (ALTA 2024).
+This is the repository for Proceedings of The 23rd Annual Workshop of the 
+Australasian Language Technology Association (ALTA 2025).
 
 Proceedings were compiled using `aclpub2` v 1.1 
 (https://github.com/rycolab/aclpub2). Compilation was done on a Windows 10
@@ -11,7 +11,7 @@ Repository structure:
 
 + Most folders and files comes directly from "aclpub2" repository; only those 
   necessary for assembling the proceedings are included.
-+ "ALTA2024-proceedings" contains raw input files used to generate proceedings.
++ "ALTA2025-proceedings" contains raw input files used to generate proceedings.
 + "output" folder contains the final compiled version.
 
 ## Setup
