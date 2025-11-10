@@ -56,7 +56,7 @@ template:
 
 Change directory to the `aclpub2` subfolder and run the following command:
 
-`python ./bin/generate ALTA24-proceedings --proceedings --overwrite`
+`python ./bin/generate ALTA25-proceedings --proceedings --overwrite`
 
 `--overwrite` flag will help if you need to make minor adjustment to metadata 
 etc. -- you'll be able to recompile without manually deleting output files from 
