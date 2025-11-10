@@ -1,0 +1,87 @@
+- entries:
+  - first_name: Karin 
+    last_name: Verspoor
+    institution: Royal Melbourne Institute of Technology
+  role: Area Chairs
+  
+- entries:
+  - first_name: Naomi
+    last_name: Baes 
+    institution: University of Melbourne
+  - first_name: Daniel
+    last_name: Beck
+    institution: Royal Melbourne Institute of Technology
+  - first_name: Dawei
+    last_name: Chen 
+    institution: Australian National University
+  - first_name: Ming-Bin
+    last_name: Chen
+    institution: University of Melbourne
+  - first_name: Xiang
+    last_name: Dai
+    institution: CSIRO
+  - first_name: Mark
+    last_name: Dras
+    institution: Macquarie University
+  - first_name: Gabriela
+    last_name: Ferraro 
+    institution: Australian National University
+  - first_name: Eduard
+    last_name: Hovy
+    institution: University of Melbourne
+  - first_name: Nicholas
+    middle_name: I-Hsien
+    last_name: Kuo
+    institution: University of New South Wales
+  - first_name: Inigo
+    middle_name: Jauregi
+    last_name: Unanue
+    institution: University of Technology Sydney
+  - first_name: Antonio
+    middle_name: Jimeno
+    last_name: Yepes
+    institution: Royal Melbourne Institute of Technology
+  - first_name: Jonathan 
+    middle_name: K.
+    last_name: Kummerfeld
+    institution: University of Sydney
+  - first_name: Sarvnaz
+    last_name: Karimi
+    institution: CSIRO
+  - first_name: Kemal
+    last_name: Kurniawan
+    institution: University of Melbourne
+  - first_name: Chunhua
+    last_name: Liu
+    institution: University of Melbourne
+  - first_name: Raphael
+    last_name: Merx
+    institution: University of Melbourne
+  - first_name: Diego
+    last_name: Mollá 
+    institution: Macquarie University
+  - first_name: Massimo
+    last_name: Piccardi 
+    institution: University of Technology Sydney
+  - first_name: Josiah
+    last_name: Poon 
+    institution: University of Sydney
+  - first_name: Anudeex
+    last_name: Shetty
+    institution: University of Melbourne
+  - first_name: Amrita
+    last_name: Singh
+    institution: University of New South Wales
+  - first_name: Dipankar
+    last_name: Srirag
+    institution: University of New South Wales
+  - first_name: Hanna
+    last_name: Suominen
+    institution: Australian National University
+  - first_name: Zheng Wei
+    last_name: Lim
+    institution: University of Melbourne
+  - first_name: Qiongkai
+    last_name: Xu
+    institution: Macquarie University
+  role: Reviewers

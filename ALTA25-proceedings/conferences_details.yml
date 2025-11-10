@@ -1,0 +1,21 @@
+book_title: Proceedings of The 23rd Annual Workshop of the Australasian Language Technology Association
+event_name: Proceedings of the 23rd Annual Workshop of the Australasian Language Technology Association
+volume_name: main
+cover_subtitle:
+organization: The University of Sydney
+place: Sydney, Australia
+logo: alta-logo.png
+anthology_venue_id: ALTA
+isbn: 1834-7037
+start_date: 2025-11-26
+end_date: 2025-11-28
+location: Sydney, Australia
+editors:
+  - first_name: Jonathan
+    middle_name: K.
+    last_name: Kummerfeld
+  - first_name: Aditya
+    last_name: Joshi
+  - first_name: Mark
+    last_name: Dras  
+publisher: Association for Computational Linguistics
