@@ -185,6 +185,7 @@
     paper_type: long
     presentation_type: oral
     submitted_area: Research
+  authors:
   - first_name: Ye
     last_name: Bai
   - first_name: Minghan
@@ -226,6 +227,7 @@
     paper_type: long
     presentation_type: oral
     submitted_area: Research
+  authors:
   - first_name: Matteo
     last_name: Guida
   - first_name: Yulia
