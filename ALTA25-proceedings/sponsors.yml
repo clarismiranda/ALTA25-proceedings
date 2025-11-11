@@ -4,10 +4,10 @@
 - tier: Silver
   logos:
     - mongodb.png
-    - amazon.svg
+    - amazon.png
 - tier: Bronze
   logos: 
-    - ge.svg
+    - ge.png
     - unimelb.png
 - tier: Host sponsors
   logos: 

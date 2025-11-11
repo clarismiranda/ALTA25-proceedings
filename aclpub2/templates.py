@@ -83,7 +83,7 @@ def homoglyph(name: str) -> str:
 
 
 def program_date(date) -> str:
-    return date.strftime("%A, %B %#d, %Y")
+    return date.strftime("%A, %B %-d, %Y")
 
 
 def session_times(session) -> str:

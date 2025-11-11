@@ -115,7 +115,7 @@
   file: 6.pdf
   id: 6
 
-- title: "Understanding Multilingual ASR Systems: The Role of Language Families and Typological Features"
+- title: "Understanding Multilingual ASR Systems: The Role of Language Families and Typological Features in Seamless and Whisper"
   abstract:
     "This study investigates the extent to which linguistic typology influences the performance of two automatic speech recognition (ASR) systems across diverse language families. Using the FLEURS corpus and typological features from the World Atlas of Language Structures (WALS), we analysed 40 languages grouped by phonological, morphological, syntactic, and semantic domains. We evaluated two state-of-the-art multilingual ASR systems, Whisper and Seamless, to examine how their performance, measured by word error rate (WER), correlates with linguistic structures. Random Forests and Mixed Effects Models were used to quantify feature impact and statistical significance. Results reveal that while both systems leverage typological patterns, they differ in their sensitivity to specific domains. Our findings highlight how structural and functional linguistic features shape ASR performance, offering insights into model generalisability and typology-aware system development."
   attributes:
