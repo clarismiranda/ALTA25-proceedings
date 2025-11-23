@@ -239,6 +239,25 @@
   file: 12.pdf
   id: 12
 
+- title: "Graph-Score: A Graph-grounded Metric for Audio Captioning"
+  abstract:
+    "Evaluating audio captioning systems is a challenging problem since the evaluation process must consider numerous semantic alignments of candidate captions, such as sound event matching and the temporal relationship among them. The existing metrics fail to take these alignments into account as they consider either statistical overlap (BLEU, SPICE, CIDEr) or latent representation similarity (FENSE). To tackle the aforementioned issues of the current metrics, we propose the graph-score, which grounds audio captions to semantic graphs, for better measuring the performance of AAC systems. Our proposed metric achieves the highest agreement with human judgment on the pairwise benchmark datasets. Furthermore, we contribute high-quality benchmark datasets to make progress in developing evaluation metrics for the audio captioning task."
+  attributes:
+    paper_type: long
+    presentation_type: oral
+    submitted_area: Research
+  authors:
+  - first_name: Manh
+    last_name: Luong
+  - first_name: Gholamreza
+    last_name: Haffari
+  - first_name: Dinh
+    last_name: Phung
+  - first_name: Lizhen
+    last_name: Qu
+  file: 13.pdf
+  id: 13
+
 # Shared task ------------------------------------------------------------------
   
 - title: "Overview of the 2024 ALTA Shared Task: Normalise Adverse Drug Events"
@@ -346,3 +365,31 @@
     last_name: Vaidyanathan
   file: st_6.pdf
   id: st_6
+
+# Tutorial ------------------------------------------------------------------
+  
+- title: "Alignment of Large Language Models with Human Preferences and Values"
+  abstract:
+    "Large Language Models (LLMs) have demonstrated remarkable capabilities, yet their reliability and alignment with human expectations remain unresolved challenges. This tutorial introduces the foundations of alignment and provides participants with a conceptual and practical understanding of the field. Core principles such as values, safety, reasoning, and pluralism will be presented through intuitive explanations, worked examples, and case studies. The aim is to equip attendees with the ability to reason about alignment goals, understand how existing methods operate in practice, and critically evaluate their strengths and limitations."
+  attributes:
+    paper_type: task
+    presentation_type: oral
+    submitted_area: Shared Task
+  authors:
+  - first_name: Usman 
+    last_name: Naseem 
+  - first_name: Gautam
+    middle_name: Siddharth  
+    last_name: Kashyap 
+  - first_name: Kaixuan
+    last_name: Ren 
+  - first_name: Yiran
+    last_name: Zhang
+  - first_name: Utsav
+    last_name: Maskey
+  - first_name: Juan (Ada)
+    last_name: Ren
+  - first_name: Afrozah
+    last_name: Nadeem
+  file: t_1.pdf
+  id: t_1
