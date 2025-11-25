@@ -163,7 +163,7 @@
   - first_name: Yelaman
     last_name: Abdullin
   - first_name: Diego
-    last_name: Molla
+    last_name: "Moll\xE1"
   - first_name: Bahadorreza
     last_name: Ofoghi
   - first_name: Vicky
@@ -270,6 +270,14 @@
     last_name: Liu
   - first_name: Ruohua
     last_name: Xu
+  - first_name: He
+    last_name: Zhang
+  - first_name: Hanqiu
+    last_name: Liu
+  - first_name: Yongpan
+    last_name: Sheng
+  - first_name: Ming
+    last_name: Liu
   end_page: 111
   file: 8.pdf
   id: 8
@@ -365,7 +373,7 @@
     last_name: Karimi
   - first_name: Andreas
     last_name: Duenser
-  - first_name: Cecile
+  - first_name: "C\xE9cile"
     last_name: Paris
   end_page: 175
   file: 11.pdf

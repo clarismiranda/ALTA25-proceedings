@@ -88,7 +88,7 @@
   - first_name: Yelaman
     last_name: Abdullin
   - first_name: Diego
-    last_name: Molla
+    last_name: Mollá
   - first_name: Bahadorreza
     last_name: Ofoghi
   - first_name: Vicky
@@ -157,6 +157,14 @@
     last_name: Liu
   - first_name: Ruohua
     last_name: Xu
+  - first_name: He
+    last_name: Zhang
+  - first_name: Hanqiu
+    last_name: Liu
+  - first_name: Yongpan
+    last_name: Sheng
+  - first_name: Ming
+    last_name: Liu
   file: 8.pdf
   id: 8
 
@@ -213,7 +221,7 @@
     last_name: Karimi
   - first_name: Andreas
     last_name: Duenser
-  - first_name: Cecile
+  - first_name: Cécile
     last_name: Paris
   file: 11.pdf
   id: 11
@@ -385,7 +393,7 @@
     last_name: Zhang
   - first_name: Utsav
     last_name: Maskey
-  - first_name: Juan
+  - first_name: Juan 
     last_name: Ren
   - first_name: Afrozah
     last_name: Nadeem
