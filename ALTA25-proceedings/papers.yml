@@ -370,7 +370,7 @@
   abstract:
     "Large Language Models (LLMs) have demonstrated remarkable capabilities, yet their reliability and alignment with human expectations remain unresolved challenges. This tutorial introduces the foundations of alignment and provides participants with a conceptual and practical understanding of the field. Core principles such as values, safety, reasoning, and pluralism will be presented through intuitive explanations, worked examples, and case studies. The aim is to equip attendees with the ability to reason about alignment goals, understand how existing methods operate in practice, and critically evaluate their strengths and limitations."
   attributes:
-    paper_type: task
+    paper_type: tutorial
     presentation_type: oral
     submitted_area: Tutorial
   authors:
@@ -385,7 +385,7 @@
     last_name: Zhang
   - first_name: Utsav
     last_name: Maskey
-  - first_name: Juan (Ada)
+  - first_name: Juan
     last_name: Ren
   - first_name: Afrozah
     last_name: Nadeem
