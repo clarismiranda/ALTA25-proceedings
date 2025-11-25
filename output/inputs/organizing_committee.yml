@@ -1,0 +1,42 @@
+- members:
+  - first_name: Jonathan
+    middle_name: K.
+    last_name: Kummerfeld
+    institution: The University of Sydney
+  role: General Chair
+  
+- members:
+  - first_name: Aditya
+    last_name: Joshi
+    institution: University of New South Wales
+  - first_name: Mark
+    last_name: Dras
+    institution: Macquarie University
+  role: Program Chairs
+  
+- members:
+  - first_name: Ana Clarissa
+    last_name: Miranda Pena 
+    institution: The University of Sydney
+  role: Publication Chair
+  
+- members:
+  - first_name: Ngoc Gia Hy
+    last_name: Nguyen 
+    institution: The University of Sydney
+  role: Technology Chair
+  
+- members:
+  - first_name: Yidong
+    last_name: Gan 
+    institution: The University of Sydney
+  role: Sponsorship Chair
+  
+- members:
+  - first_name: Sebastian
+    last_name: Kobler 
+    institution: The University of Sydney
+  - first_name: Thomas
+    last_name: Elton 
+    institution: The University of Sydney
+  role: Local Chairs

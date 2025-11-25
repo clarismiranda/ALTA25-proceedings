@@ -1,0 +1,14 @@
+- tier: Gold
+  logos:
+    - google.png
+- tier: Silver
+  logos:
+    - mongodb.png
+    - amazon.png
+- tier: Bronze
+  logos: 
+    - ge.png
+    - unimelb.png
+- tier: Host sponsors
+  logos: 
+    - usyd.png
